@@ -5,8 +5,8 @@ import Github from "./images/Icon (1).png";
 import Ingresive from "./images/I4G.svg";
 import Zuri from "./images/Vector (1).png";
 import Link from "./images/Icon (2).png";
-// import FiCamera from "./images/Icon (4).png";
-// import BiDotsHorizontalRounded from "./images/Icon (3).png";
+import { FiCamera } from "react-icons/fi";
+import { BiDotsHorizontalRounded } from "react-icons/bi";
 import "./index.css";
 
 function App() {
@@ -50,7 +50,7 @@ function App() {
           <img src={Link} alt="icon" />
         </div>
         <div className="rightMobile block md:hidden w-10 h-10 mt-4 mr-6 font-bold border-2 border-dashed rounded-full md:mr-20">
-          {/* <BiDotsHorizontalRounded /> */}
+          <BiDotsHorizontalRounded />
         </div>
       </div>
 
@@ -63,7 +63,7 @@ function App() {
         />
         <div class="overlay">
           <a href="www.ghjk" class="icon">
-            {/* <FiCamera /> */}
+            <FiCamera />
           </a>
         </div>
       </div>
@@ -71,7 +71,7 @@ function App() {
       <p id="slack" style={{ display: "none" }}>
         M_Roheemoh
       </p>
-      <h1 className="text-2xl py-4 font-bold">Mudashir Roheemoh.O</h1>
+      <h1 className="text-2xl py-4 font-bold">M_Roheemoh</h1>
 
       <div className="w-full md:w-3/5">
         {buttons.map((button) => (
