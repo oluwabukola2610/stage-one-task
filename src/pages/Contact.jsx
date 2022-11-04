@@ -39,7 +39,7 @@ function Contact() {
                 type="text"
                 id="lastname"
                 placeholder="Enter your last name"
-                class="shadow appearance-none border rounded w-full py-2 px-3 mb-4 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                className="shadow appearance-none border rounded w-full py-2 px-3 mb-4 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
               />
             </div>
           </div>
@@ -50,7 +50,7 @@ function Contact() {
             type="text"
             id="email"
             placeholder="yourname@email.com"
-            class="shadow appearance-none border rounded w-full py-2 px-3 mb-4 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+            className="shadow appearance-none border rounded w-full py-2 px-3 mb-4 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
           />
           <label for="message" className="block text-gray-700 text-sm mb-2">
             Message
@@ -61,7 +61,7 @@ function Contact() {
             cols="25"
             rows="7"
             placeholder="Send me a message and i'll reply you as soon as possible....."
-            class="shadow appearance-none border rounded w-full py-2 px-3 mb-4 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+            className="shadow appearance-none border rounded w-full py-2 px-3 mb-4 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
           ></textarea>
           <div style={{ marginBottom: 10 }}>
             <input type="checkbox" name="" id="check" />

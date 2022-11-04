@@ -62,8 +62,8 @@ function Stageone() {
           id="profile__img"
           className="img mt-8 w-24 rounded-full border-sky-500 md:w-28 md:hover:brightness-50"
         />
-        <div class="overlay">
-          <a href="www.ghjk" class="icon">
+        <div className="overlay">
+          <a href="www.ghjk" className="icon">
             <FiCamera />
           </a>
         </div>
@@ -74,9 +74,9 @@ function Stageone() {
       </p>
       <h1 className="text-2xl py-4 font-bold">M_Roheemoh</h1>
 
-      <div className="w-full md:w-3/5">
+      <div className="w-4/5 md:w-3/5 ">
         {buttons.map((button) => (
-          <div className="bg-gray-200 rounded-lg text-sm p-5 my-5 drop-shadow-[0_15px_25px_rgba(0,0,0,0.02)] hover:drop-shadow-md hover:bg-gray-300">
+          <div key={button.id} className="bg-gray-200 rounded-lg text-sm p-5 my-5 drop-shadow-[0_15px_25px_rgba(0,0,0,0.02)] hover:drop-shadow-md hover:bg-gray-300">
             <a href={button.href} id={button.id}>
               {button.linkName}
             </a>

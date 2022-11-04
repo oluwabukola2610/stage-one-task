@@ -7,12 +7,10 @@ import './index.css'
 function App() {
   return (
     <div className="App">
-      <browserRouter>
         <Routes>
         <Route path="/" element={<Stageone />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
-      </browserRouter>
     </div>
   );
 }
