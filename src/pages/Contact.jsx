@@ -5,7 +5,7 @@ function Contact() {
   function handleSubmit() {}
   return (
     <>
-      <div className="text-left md:w-[60%] mx-auto m-10">
+      <div className="text-left md:w-[60%] md:mx-auto m-10">
         <div className="mb-8">
           <h1 className="font-bold text-2xl">Contact Me</h1>
           <p>Hi there, contact me to ask about anything you have in mind.</p>

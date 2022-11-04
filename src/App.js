@@ -2,6 +2,7 @@ import React from "react";
 import { Routes, Route } from "react-router-dom";
 import Contact from "./pages/Contact";
 import Stageone from "./pages/Stageone";
+import './index.css'
 
 function App() {
   return (
