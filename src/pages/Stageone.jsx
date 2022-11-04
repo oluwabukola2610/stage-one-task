@@ -2,14 +2,12 @@ import React from 'react'
 import ProfileImage from "../images/IMG_E5718 (2).JPG";
 import Slack from "../images/slack-new.png";
 import Github from "../images/Icon (1).png";
-import Ingresive from "../images/I4G.svg";
-import Zuri from "../images/Vector (1).png";
 import Links from "../images/Icon (2).png";
 import { FiCamera } from "react-icons/fi";
 import { BiDotsHorizontalRounded } from "react-icons/bi";
 import {Link} from 'react-router-dom';
-
 import "../index.css";
+import Footer from '../component/Footer';
 
 
 function Stageone() {
@@ -108,17 +106,7 @@ function Stageone() {
 
       <div className="border w-full mt-8"></div>
 
-      <footer className="my-8 w-full text-left md:flex md:space-x-64 md:justify-center md:align-middle">
-        <img src={Zuri} alt="zuri" className="w-30 border-sky-500 mb-2" />
-        <span className="text-gray-500 mb-2">
-          HNG Internship 9 Frontend Task
-        </span>
-        <img
-          src={Ingresive}
-          alt="IG4"
-          className="w-28 border-sky-500 mt-2 md:w-28"
-        />
-      </footer>
+      <Footer />
     </div>
   );
     
