@@ -15,7 +15,7 @@ function Contact() {
           <div className="-mx-2 md:flex">
             <div className="w-full px-2 md:w-1/2">
               <label
-                for="firstname"
+                htmlfor="firstname"
                 className="block text-gray-700 text-sm mb-2"
               >
                 First-Name
@@ -30,7 +30,7 @@ function Contact() {
 
             <div className="w-full px-2 md:w-1/2">
               <label
-                for="lastname"
+                htmlfor="lastname"
                 className="block text-gray-700 text-sm  mb-2"
               >
                 Last Name
@@ -43,7 +43,7 @@ function Contact() {
               />
             </div>
           </div>
-          <label for="email" className="block text-gray-700 text-sm  mb-2">
+          <label htmlFor="email" className="block text-gray-700 text-sm  mb-2">
             Email
           </label>
           <input
@@ -52,7 +52,7 @@ function Contact() {
             placeholder="yourname@email.com"
             className="shadow appearance-none border rounded w-full py-2 px-3 mb-4 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
           />
-          <label for="message" className="block text-gray-700 text-sm mb-2">
+          <label htmlfor="message" className="block text-gray-700 text-sm mb-2">
             Message
           </label>
           <textarea
