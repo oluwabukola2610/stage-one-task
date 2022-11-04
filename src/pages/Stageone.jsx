@@ -4,9 +4,11 @@ import Slack from "../images/slack-new.png";
 import Github from "../images/Icon (1).png";
 import Ingresive from "../images/I4G.svg";
 import Zuri from "../images/Vector (1).png";
-import Link from "../images/Icon (2).png";
+import Links from "../images/Icon (2).png";
 import { FiCamera } from "react-icons/fi";
 import { BiDotsHorizontalRounded } from "react-icons/bi";
+import {Link} from 'react-router-dom';
+
 import "../index.css";
 
 
@@ -42,18 +44,13 @@ function Stageone() {
           href: "https://books.zuri.team/design-rules ",
           id: "book__design",
         },
-        {
-          linkName : 'Contact Me',
-          href: '/Contact',
-          id:'Contact'
-        }
       ];
     
   return (
   <div className="App">
       <div>
         <div className="rightDesktop hidden md:block w-10 h-10 mt-4 mr-6 font-bold border-2 border-dashed rounded-full md:mr-20 hover:bg-gray-200">
-          <img src={Link} alt="icon" />
+          <img src={Links} alt="icon" />
         </div>
         <div className="rightMobile block md:hidden w-10 h-10 mt-4 mr-6 font-bold border-2 border-dashed rounded-full md:mr-20">
           <BiDotsHorizontalRounded />
@@ -87,6 +84,9 @@ function Stageone() {
             </a>
           </div>
         ))}
+        <div className="bg-gray-200 rounded-lg text-sm p-5 my-5 drop-shadow-[0_15px_25px_rgba(0,0,0,0.02)] hover:drop-shadow-md hover:bg-gray-300">
+          <button><Link to="/contact">Contact Me</Link></button>
+        </div>
       </div>
 
       <div className="flex">
